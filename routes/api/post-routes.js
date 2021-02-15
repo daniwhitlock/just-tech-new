@@ -76,7 +76,7 @@ router.post('/', (req, res) => {
 
 // PUT /api/post/upvote
 router.put('/upvote', (req, res) => {
-    Post.upvote(req, body, { Vote })
+    Post.upvote(req.body, { Vote })
         .then(dbPostData => res.json(dbPostData))
         .catch(err => {
             console.log(err);
