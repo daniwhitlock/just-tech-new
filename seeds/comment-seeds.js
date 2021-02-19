@@ -1,4 +1,4 @@
-const { Comment } = require('../../../../../../Downloads/14.1/models');
+const { Comment } = require('../models');
 
 const commentdata = [
   {
