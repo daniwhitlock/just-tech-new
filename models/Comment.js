@@ -35,6 +35,7 @@ Comment.init(
     },
     {
         sequelize,
+        //if you had freezeTableName false, it would add on an s, conforms your table names to sequelize standards
         freezeTableName: true,
         underscored: true,
         modelName: 'comment'
