@@ -1,4 +1,4 @@
-# just-tech-news
+# Just Tech News
 
 ## Description
 Come sign up to be able to view and make posts. You even have the capability to upvote, comment, edit, or delete posts if you have signed up. Don't want to sign up, no worries. You are able to still view other posts. 
